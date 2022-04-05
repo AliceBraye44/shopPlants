@@ -10,7 +10,11 @@ function ShoppingList({ cart, updateCart }) {
 
 	return (
 		<div className='shopping-list'>
-			
+		<PlantItem />	
+		<PlantItem />
+		<PlantItem />
+		<PlantItem />
+		<PlantItem />
 		</div>
 	)
 }
