@@ -58,15 +58,7 @@ export const plantList = [
 		price: 25
 	},
 
-	{
-		name: 'cactus',
-		category: 'plante grasse',
-		id: '8fp',
-		light: 2,
-		water: 1,
-		cover: cactus,
-		price: 6
-	},
+
 	{
 		name: 'basilique',
 		category: 'extérieur',

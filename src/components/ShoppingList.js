@@ -10,11 +10,18 @@ function ShoppingList({ cart, updateCart }) {
 
 	return (
 		<div className='shopping-list'>
-		<PlantItem />	
-		<PlantItem />
-		<PlantItem />
-		<PlantItem />
-		<PlantItem />
+			<div> Categories </div>
+				
+				{plantList.map (toto => {
+				return (<div> 
+				<PlantItem {...toto}/>
+				<button onClick={onClickHandle}> Achete-moi! </button>
+				</div>)
+			})
+
+		}
+			
+				
 		</div>
 	)
 }
